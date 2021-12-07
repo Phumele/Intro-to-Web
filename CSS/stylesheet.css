@@ -1,0 +1,39 @@
+body{
+  font-family: sans-serif;
+  font-size:100%;
+  background-color: blue#FCF7F8;
+}
+
+header {
+  text-align: center;
+  background-color: lightcoral;
+  color:black; 
+  text-align: center;
+}
+#Between{
+  background-color: blueviolet;
+  min-width: fit-content;
+}
+
+#example{
+  background-color: blueviolet;
+  min-width: fit-content;
+}
+section {
+ text-align: left;
+ background-color: mediumvioletred; 
+ max-width: fit-content;
+}
+article{
+  text-align: left;
+  background-color: cornflowerblue;
+}
+main{
+  text-align: left;
+  background-color:magenta;
+}
+
+footer {
+  background-color: navy;
+  text-align: center;
+}

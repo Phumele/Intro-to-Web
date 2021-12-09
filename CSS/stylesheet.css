@@ -20,17 +20,19 @@ header {
 }
 
 #Between{
-  background-color: blueviolet;
+  min-width: fit-content;
+  }
+
+#example{
   min-width: fit-content;
 }
 
-#example{
-  background-color: blueviolet;
-  min-width: fit-content;
-}
 #Menu{
-  text color: black;
+ color: black;
+ display: flex;
+ background-color: rgb(84, 85, 87) ;
 }
+
 section {
  text-align: left;
  background-color: cornflowerblue; 
@@ -38,10 +40,26 @@ section {
  border-style: solid;color: rgb(92, 29, 92);
  border width: 40%;
  }
+
+ #sidebar{
+  display: flex; 
+ }
+
+ .body{
+   padding-left:2 rem;
+ }
+
+ #container{
+   display: flex;
+   width: 100%;
+   background-color:rgb(84, 85, 87);
+ }
+ 
 article{
   text-align: left;
-  background-color: cornflowerblue;
-  border-style: solid;color: (92, 29, 92);
+  color: black;
+  border-style: solid;
+  background-color: rgb(126, 128, 131);
   border width: 40%;
 }
 main{
@@ -57,4 +75,5 @@ footer {
 }
 #footer{
   position: relative;
+  justify-content: space-between;
 }
